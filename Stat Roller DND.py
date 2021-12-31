@@ -8,7 +8,7 @@ n = int(num_die)
 print('Rolling the dice...')
 
 for i in range(n): # rolls dice n times
-    dice = random.randint(1,100)
+    dice = random.randint(1,6)
     results.append(dice) #add each roll to result list
 
 
